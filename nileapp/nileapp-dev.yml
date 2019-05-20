@@ -1,2 +1,1 @@
-server:
-  port: 9999
+test: "hello world from config service (dev)"
