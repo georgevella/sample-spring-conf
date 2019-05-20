@@ -1,0 +1,19 @@
+server:
+  port: 8090
+
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: *
+
+test: "hello world from config service (default)"
+
+spring:
+  cloud:
+    config:
+      allowOverride: true
+      overrideNone: true
+      overrideSystemProperties: true
